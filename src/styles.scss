@@ -1,1 +1,152 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  position: relative;
+  color: #3e396b;
+  top: 0px !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Product Sans", Helvetica, Arial, serif;
+  line-height: 1.5;
+}
+
+a {
+  color: #006b95;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .btn {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.btn-lg {
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 17px 35px;
+}
+
+.btn-lg:hover,
+.btn-lg:active {
+  transform: translateY(-2px);
+}
+
+.btn-sm {
+  font-size: 14px;
+  letter-spacing: 0;
+}
+
+.btn-primary,
+.btn-primary:focus {
+  background-color: #006b95;
+  background-image: linear-gradient(90deg, #006b95, #005380);
+  border: 0;
+  color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus:hover,
+.btn-primary:focus:active {
+  color: #fff;
+  background-color: #00597c;
+  background-image: linear-gradient(90deg, #005380, #006b95);
+}
+
+.btn-outline,
+.btn-outline:focus {
+  color: #fff;
+  background-image: none;
+  background-color: transparent;
+  border-color: #fff;
+}
+
+.btn-outline:hover,
+.btn-outline:active,
+.btn-outline:focus:hover,
+.btn-outline:focus:active {
+  color: #292b2c;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-outline-primary {
+  color: #006b95;
+  background-image: none;
+  background-color: transparent;
+  border-color: #006b95;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:active {
+  color: #fff;
+  background-color: #006b95;
+  border-color: #006b95;
+  background-image: linear-gradient(90deg, #006b95, #005380);
+}
+
+
+@media (min-width: 576px) {
+  .page {
+    padding: 2rem 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-link {
+    padding: 0.3em 0.6em;
+  }
+}
+
+@media (min-width: 992px) {
+  .client-logos {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .list-text {
+    font-size: 1.4rem;
+  }
+
+  .navbar-nav {
+    margin-bottom: 1em;
+  }
+
+  .navbar-nav .nav-link:before {
+    content: "";
+    height: 1px;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    right: 50%;
+    border-bottom: 1px solid #006b95;
+    margin-right: auto;
+    margin-left: auto;
+    transition: all 0.5s ease;
+  }
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline {
+  color: #dc3545;
+}
